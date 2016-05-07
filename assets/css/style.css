@@ -84,10 +84,11 @@ a {
 .container {
 	width: 960px;
 	min-height: 100%;
-	height:960px;
+	height: auto;
 	margin: 0 auto;
 	background: #D3D3D3;
 	margin-top: 20px;
+	overflow: auto;
 }
 #main-bio,
 #contact-info,
@@ -99,14 +100,14 @@ a {
 	clear: both;
 	float: left;
 	background-color: #FFFFFF;
-	border: #008080 solid 1px;
+	border: #008080 solid 3px;
 	padding-right: 10px;
 }
 #contact-info {
 	width: 25%;
 	float: right;
 	text-align: center;
-	border: #008080 solid 1px;
+	border: #008080 solid 3px;
 }
 #bio-image {
 	width: 200px;
@@ -122,7 +123,8 @@ a {
 	margin-left: 0px;
 	margin-right: 0px;
 	padding: 0;
-	border: #008080 solid 1px;
+	border: #008080 solid 3px;
+	border-top: 0px;
 }
 
 .cont2 {
@@ -146,4 +148,13 @@ p {
 #webdesign {
 	float: bottom;
 	margin-bottom: 20px;
+}
+.footer {
+	width: 100%;
+	height: 4em;
+	background-color: #FFFFFF;
+	border-top: 3px solid #008080;
+	margin-top: 10px;
+	text-align: center;
+
 }
